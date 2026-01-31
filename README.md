@@ -21,13 +21,13 @@ claude plugin install person-eval@person-eval --scope user
 In a Claude Code session:
 
 ```
-evaluate ducks on https://meta.discourse.org
+/person-eval ducks https://meta.discourse.org
 ```
 
-Or:
+Or with natural language:
 
 ```
-person evaluation for sam on https://meta.discourse.org
+evaluate sam on https://meta.discourse.org
 ```
 
 The skill will:
