@@ -24,10 +24,18 @@ In a Claude Code session:
 /person-eval ducks https://meta.discourse.org
 ```
 
+With a timeframe for yearly reviews:
+
+```
+/person-eval ducks https://meta.discourse.org 2025
+/person-eval sam https://meta.discourse.org "Q4 2025"
+/person-eval sam https://meta.discourse.org "last 6 months"
+```
+
 Or with natural language:
 
 ```
-evaluate sam on https://meta.discourse.org
+evaluate sam on https://meta.discourse.org for 2025
 ```
 
 The skill will:
