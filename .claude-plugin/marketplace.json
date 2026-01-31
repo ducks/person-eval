@@ -1,0 +1,15 @@
+{
+  "name": "person-eval",
+  "description": "Professional evaluation skill for Claude Code",
+  "owner": {
+    "name": "ducks"
+  },
+  "plugins": [
+    {
+      "name": "person-eval",
+      "description": "Generate professional evaluations from Discourse forum activity using Graham Duncan's framework",
+      "source": ".",
+      "version": "20260131"
+    }
+  ]
+}
